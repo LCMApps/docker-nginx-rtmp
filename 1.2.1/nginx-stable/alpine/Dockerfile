@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:1.12.2-alpine
 
 ENV NGINX_RTMP_MODULE_VERSION 1.2.1
 
