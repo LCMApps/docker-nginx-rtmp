@@ -1,0 +1,11 @@
+version: 2
+updates:
+- package-ecosystem: docker
+  directory: "/1.2.1/nginx-mainline/alpine"
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: nginx
+    versions:
+    - 1.19.6.pre.alpine
